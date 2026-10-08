@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1021697483187",
+    "project_id": "vobpl-attendance",
+    "storage_bucket": "vobpl-attendance.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021697483187:android:d0f51e8a4329e127eb6bc6",
+        "android_client_info": {
+          "package_name": "vobplsmart.in.vobpl_attendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021697483187-amaatgs0gqlgd3hibpmfr0sltbpdgu3s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vobplsmart.in.vobpl_attendance",
+            "certificate_hash": "1854676183394eb3b9e8ecbae79b4de16eefda84"
+          }
+        },
+        {
+          "client_id": "1021697483187-49tgfnsd5r5er6c0ddh3rar0uaq5biaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgUjB3lfi9Evedj67soPtRonvbv8NkW6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021697483187-49tgfnsd5r5er6c0ddh3rar0uaq5biaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

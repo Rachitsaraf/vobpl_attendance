@@ -1,0 +1,12 @@
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Ensure HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Set correct MIME type for Android APK files so browsers/apps download correctly
+AddType application/vnd.android.package-archive .apk
+
+# Prevent Directory Browsing
+Options -Indexes
